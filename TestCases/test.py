@@ -1,2 +1,7 @@
+import pytest
+class Test:
 
-# test is pending
+    @pytest.mark.sanity
+    @pytest.mark.regression
+    def test(self):
+        pass

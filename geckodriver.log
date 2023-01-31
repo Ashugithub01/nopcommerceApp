@@ -920,3 +920,15 @@ Read port: 61226
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asheesh\\AppData\\Local\\Temp\\rust_mozprofile9UYcKn\\search.json.mozlz4", (void 0)))
 JavaScript warning: https://testdims.datagainservices.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://testdims.datagainservices.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1675183958731	geckodriver	INFO	Listening on 127.0.0.1:62864
+1675183961811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Asheesh\\AppData\\Local\\Temp\\rust_mozprofileoeV3pp"
+1675183962741	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675183962757	Marionette	INFO	Listening on port 62874
+Read port: 62874
+1675183963584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asheesh\\AppData\\Local\\Temp\\rust_mozprofileoeV3pp\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://testdims.datagainservices.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1675183970770	Marionette	INFO	Stopped listening on port 62874
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

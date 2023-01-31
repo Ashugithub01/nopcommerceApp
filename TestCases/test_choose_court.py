@@ -1,3 +1,5 @@
+import pytest
+
 from PageObjects.DIMSLogin import LoginStep2
 from PageObjects.AddScreening import PatientAddScreen
 from Utilities.readProperties import ReadConfig
@@ -8,6 +10,8 @@ class Test_002_ChooseCourtName():
     email = ReadConfig.getemail()
     password = ReadConfig.getpassword()
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_choosecourt(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(5)

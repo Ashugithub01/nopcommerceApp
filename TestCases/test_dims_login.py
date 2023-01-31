@@ -1,3 +1,5 @@
+import pytest
+
 from PageObjects.DIMSLogin import LoginStep2
 from Utilities.readProperties import ReadConfig
 from selenium import webdriver
@@ -9,6 +11,8 @@ class Test_001_DimsLogin():
     password = ReadConfig.getpassword()
     logger=LogGen.loggen()
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("*************Login Test case 001 ************")
         self.driver = setup
@@ -24,6 +28,8 @@ class Test_001_DimsLogin():
             self.driver.close()
             assert False
 
+
+    @pytest.mark.regression
     def test_login(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(5)
