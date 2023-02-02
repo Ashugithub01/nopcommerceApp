@@ -1,0 +1,6 @@
+2023-02-02 10:07:01,021  - INFO - *************Login Test case 001_A ************
+2023-02-02 10:07:05,111  - INFO - ------------Verifying Home page title --------
+2023-02-02 10:07:05,120  - INFO - --------Home page title Verified ----------
+2023-02-02 10:07:07,251  - INFO - *************Login Test case 001_B ************
+2023-02-02 10:07:09,608  - INFO - ------------Verifying Login --------
+2023-02-02 10:07:20,707  - INFO - --------Login Successful and Dashboard Appeared ----------
