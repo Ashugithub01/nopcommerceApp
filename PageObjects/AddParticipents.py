@@ -1,3 +1,5 @@
+import random
+from selenium.webdriver.support.ui import Select
 
 class AddAPrticipent:
 
@@ -20,22 +22,34 @@ class AddAPrticipent:
         self.driver= driver
 
     def Select_Judge(self, judageName):
-        self.driver.find_element_by_id(self.drpd_SelectJudge_id).send_keys(judageName)
+        #self.driver.find_element_by_id(self.drpd_SelectJudge_id).send_keys(judageName)
+        judge_drp = self.driver.find_element_by_id(self.drpd_SelectJudge_id)
+        drp1 = Select(judge_drp)
+        drp1.select_by_index(judageName)
 
     def Case_Docket_No(self, DocketNo):
         self.driver.find_element_by_id(self.Inputbox_CaseDocket_id).send_keys(DocketNo)
 
     def Add_addmission_type(self, Addmissiontype):
-        self.driver.find_element_by_xpath(self.drpd_addmissionType_xpath).send_keys(Addmissiontype)
+        #self.driver.find_element_by_xpath(self.drpd_addmissionType_xpath).send_keys(Addmissiontype)
+        drp_element = self.driver.find_element_by_xpath(self.drpd_addmissionType_xpath)
+        drp2 = Select(drp_element)
+        drp2.select_by_index(Addmissiontype)
 
     def offer_related_court(self, relCourt):
-        self.driver.find_element_by_id(self.drpd_realetedCourtParticipent_id).send_keys(relCourt)
+        #self.driver.find_element_by_id(self.drpd_realetedCourtParticipent_id).send_keys(relCourt)
+        offer_rel_court = self.driver.find_element_by_id(self.drpd_realetedCourtParticipent_id)
+        drp3 = Select(offer_rel_court)
+        drp3.select_by_index(relCourt)
 
     def Date_of_refferal(self, refferedDate):
         self.driver.find_element_by_id(self.date_ReferralDate_id).send_keys(refferedDate)
 
     def Refered_source_name(self, referedSource):
-        self.driver.find_element_by_id(self.drpd_RefferalSourece_id).send_keys(referedSource)
+        #self.driver.find_element_by_id(self.drpd_RefferalSourece_id).send_keys(referedSource)
+        ref_source_name = self.driver.find_element_by_id(self.drpd_RefferalSourece_id)
+        drp4 = Select(ref_source_name)
+        drp4.select_by_index(referedSource)
 
     def Referral_Paerson_name(self, refferalname):
         self.driver.find_element_by_id(self.inputbox_RefferalName_id).send_keys(refferalname)

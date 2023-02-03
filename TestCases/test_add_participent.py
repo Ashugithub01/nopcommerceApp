@@ -1,3 +1,4 @@
+import random
 import time
 
 import pytest
@@ -39,17 +40,37 @@ class Test_003_Addnew_participents:
         time.sleep(3)
         self.ap = AddAPrticipent(self.driver)
 
-        self.ap.Select_Judge("Clara Ramirez")
-        self.ap.Case_Docket_No('764874')
-        self.ap.Add_addmission_type("Abuse-Neglect")
-        self.ap.offer_related_court("Case Dismissal")
+        judgename_idex= random.randint(1, 9)
+        self.ap.Select_Judge(judgename_idex)
+        time.sleep(2)
+
+        csr = random.randint(10001, 99999)
+        self.ap.Case_Docket_No(csr)
+        time.sleep(2)
+
+        admisson_type_index = random.randint(0, 9)
+        self.ap.Add_addmission_type(admisson_type_index)
+        time.sleep(2)
+
+        offerRel_court_index = random.randint(0, 11)
+        self.ap.offer_related_court(offerRel_court_index)
+        time.sleep(2)
+
         self.ap.Date_of_refferal("01/29/2023")
-        self.ap.Refered_source_name("Prosecutor")
-        self.ap.Referral_Paerson_name("Emili blaire")
-        self.ap.Participent_Fname("Kate")
-        self.ap.Participent_Lname("Walter")
-        self.ap.social_secu_num("000-00-0104")
+
+        Ref_sourcename_index = random.randint(0, 8)
+        self.ap.Refered_source_name(Ref_sourcename_index)
+        time.sleep(2)
+
+        self.ap.Referral_Paerson_name("Emili willis")
+        self.ap.Participent_Fname("Robert ")
+        self.ap.Participent_Lname("Collins")
+
+        sec_no = random.randint(100011111, 999999999)
+        self.ap.social_secu_num(sec_no)
+
         self.ap.Date_of_birth("01/28/1994")
+        time.sleep(2)
         self.ap.have_driver_license("No")
 
         self.ap.save_participent()
