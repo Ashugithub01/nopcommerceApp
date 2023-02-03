@@ -1,8 +1,8 @@
 import pytest
-
 from PageObjects.DIMSLogin import LoginStep2
 from Utilities.readProperties import ReadConfig
 from Utilities.customLogger import LogGen
+from PageObjects.ChooseCourt import SelectCourt
 
 
 class Test_001_DimsLogin():
@@ -40,13 +40,13 @@ class Test_001_DimsLogin():
         self.driver.implicitly_wait(5)
         self.driver.get(self.baseurl)
         self.logger.info("------------Verifying Login --------")
-        self.lp = LoginStep2(self.driver)
+        self.lp = SelectCourt(self.driver)
         self.lp.Enter_Email(self.email)
         self.lp.clickNext1()
         self.lp.Enter_password(self.password)
         self.lp.clickNext2()
-        self.lp.select_demo_court()
-        self.lp.select_adult_court()
+        self.lp.demo_court()
+        self.lp.adult_court()
         self.lp.proceed_next()
         act_title = self.driver.title
 
@@ -59,3 +59,22 @@ class Test_001_DimsLogin():
             self.logger.info("--------Login Un-Successful ----------")
             self.driver.close()
             assert False
+
+    """ def test_clickAddParicipent(self, setup):
+        self.logger.info("*************Login Test case 001_B ************")
+        self.driver = setup
+        self.driver.implicitly_wait(5)
+        self.driver.get(self.baseurl)
+        self.logger.info("------------Verifying Login --------")
+        self.lp = SelectCourt(self.driver)
+        self.lp.Enter_Email(self.email)
+        self.lp.clickNext1()
+        self.lp.Enter_password(self.password)
+        self.lp.clickNext2()
+        self.lp.demo_court()
+        self.lp.adult_court()
+        self.lp.proceed_next()
+        self.lp.click_Add_participent_screen()
+        self.lp.discard()
+        self.driver.close()
+    """

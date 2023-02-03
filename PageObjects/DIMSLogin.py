@@ -29,13 +29,6 @@ class LoginStep2(LoginStep1):
     def clickNext2(self):
         self.driver.find_element_by_xpath(self.button_Next2_xpath).click()
 
-    def select_demo_court(self):
-        self.driver.find_element_by_link_text(self.firststep_linktext).click()
 
-    def select_adult_court(self):
-        self.driver.find_element_by_link_text(self.Secondstep_linktext).click()
-
-    def proceed_next(self):
-        self.driver.find_element_by_xpath(self.thirdstep_xpath).click()
 
 

@@ -1,7 +1,7 @@
 from PageObjects.DIMSLogin import LoginStep2
 
 
-class PatientAddScreen(LoginStep2):
+class SelectCourt(LoginStep2):
 
     firststep_linktext = "1st Judicial Demo Court"
     Secondstep_linktext = "Adult Court"
@@ -18,8 +18,11 @@ class PatientAddScreen(LoginStep2):
     def proceed_next(self):
         self.driver.find_element_by_xpath(self.thirdstep_xpath).click()
 
-    def add_screen(self):
+# -------Below function use when we add new participent -----------------------------------------------------------
+
+    def click_Add_participent_screen(self):
         self.driver.find_element_by_id(self.button_addscreen_id).click()
 
     def discard(self):
         self.driver.find_element_by_xpath(self.button_discard_Rel_xpath).click()
+

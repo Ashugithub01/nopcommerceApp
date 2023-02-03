@@ -1,5 +1,5 @@
 import pytest
-
+from PageObjects.ChooseCourt import SelectCourt
 from Utilities.readProperties import ReadConfig
 from PageObjects.PendingScreening import PendingScreen
 from PageObjects.DIMSLogin import LoginStep2,LoginStep1
@@ -21,12 +21,12 @@ class Test_004_PendingScreen:
         self.Ls1.Enter_Email(self.email)
         self.Ls1.clickNext1()
 
-        self.Ls2 = LoginStep2(self.driver)
-        self.Ls2.Enter_password(self.password)
-        self.Ls2.clickNext2()
-        self.Ls2.select_demo_court()
-        self.Ls2.select_adult_court()
-        self.Ls2.proceed_next()
+        self.sc = SelectCourt(self.driver)
+        self.sc.Enter_password(self.password)
+        self.sc.clickNext2()
+        self.sc.demo_court()
+        self.sc.adult_court()
+        self.sc.proceed_next()
 
         self.ps = PendingScreen(self.driver)
         self.ps.pendingSceen_tab()
@@ -50,12 +50,12 @@ class Test_004_PendingScreen:
         self.Ls1.Enter_Email(self.email)
         self.Ls1.clickNext1()
 
-        self.Ls2 = LoginStep2(self.driver)
-        self.Ls2.Enter_password(self.password)
-        self.Ls2.clickNext2()
-        self.Ls2.select_demo_court()
-        self.Ls2.select_adult_court()
-        self.Ls2.proceed_next()
+        self.sc = SelectCourt(self.driver)
+        self.sc.Enter_password(self.password)
+        self.sc.clickNext2()
+        self.sc.demo_court()
+        self.sc.adult_court()
+        self.sc.proceed_next()
 
         ps = PendingScreen(self.driver)
         ps.pendingSceen_tab()
