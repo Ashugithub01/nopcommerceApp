@@ -28,6 +28,7 @@ class AddAPrticipent:
         drp1.select_by_index(judageName)
 
     def Case_Docket_No(self, DocketNo):
+        self.driver.find_element_by_id(self.Inputbox_CaseDocket_id).clear()
         self.driver.find_element_by_id(self.Inputbox_CaseDocket_id).send_keys(DocketNo)
 
     def Add_addmission_type(self, Addmissiontype):
@@ -52,15 +53,19 @@ class AddAPrticipent:
         drp4.select_by_index(referedSource)
 
     def Referral_Paerson_name(self, refferalname):
+        self.driver.find_element_by_id(self.inputbox_RefferalName_id).clear()
         self.driver.find_element_by_id(self.inputbox_RefferalName_id).send_keys(refferalname)
 
     def Participent_Fname(self, Fname):
+        self.driver.find_element_by_id(self.inputbox_ParticpemtFName_id).clear()
         self.driver.find_element_by_id(self.inputbox_ParticpemtFName_id).send_keys(Fname)
 
     def Participent_Lname(self, Lname):
+        self.driver.find_element_by_id(self.inputbox_ParticpemtLName_id).clear()
         self.driver.find_element_by_id(self.inputbox_ParticpemtLName_id).send_keys(Lname)
 
     def social_secu_num(self, securityNum):
+        self.driver.find_element_by_id(self.inputbox_SocialSecurityNo_id).clear()
         self.driver.find_element_by_id(self.inputbox_SocialSecurityNo_id).send_keys(securityNum)
 
     def Date_of_birth(self, dob):

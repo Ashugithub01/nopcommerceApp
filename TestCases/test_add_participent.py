@@ -55,15 +55,15 @@ class Test_003_Addnew_participents:
         time.sleep(5)
 
         self.ap.Date_of_refferal("01/29/2023")
-        time.sleep(2)
+        time.sleep(5)
 
         Ref_sourcename_index = random.randint(0, 8)
         self.ap.Refered_source_name(Ref_sourcename_index)
-        time.sleep(5)
+        time.sleep(2)
 
         self.ap.Referral_Paerson_name("Emili willis")
-        self.ap.Participent_Fname("Luis")
-        self.ap.Participent_Lname("Frazier")
+        self.ap.Participent_Fname("Major")
+        self.ap.Participent_Lname("Carter")
 
         sec_no = random.randint(100011111, 999999999)
         self.ap.social_secu_num(sec_no)
