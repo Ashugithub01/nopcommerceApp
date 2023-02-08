@@ -62,8 +62,8 @@ class Test_003_Addnew_participents:
         time.sleep(2)
 
         self.ap.Referral_Paerson_name("Emili willis")
-        self.ap.Participent_Fname("Major")
-        self.ap.Participent_Lname("Carter")
+        self.ap.Participent_Fname("Bela")
+        self.ap.Participent_Lname("Hadid")
 
         sec_no = random.randint(100011111, 999999999)
         self.ap.social_secu_num(sec_no)

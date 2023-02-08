@@ -73,6 +73,7 @@ class Test_006_clientbulkUpdate:
         self.cbulk2.Search_ByInductionDate(str(current_date))
         self.cbulk2.SelectAllCheckbox()
         time.sleep(5)
+
         self.cbulk2.AddFee_toAll()
 
 

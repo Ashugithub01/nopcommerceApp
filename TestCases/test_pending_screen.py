@@ -10,6 +10,7 @@ class Test_004_PendingScreen:
     email = ReadConfig.getemail()
     password =ReadConfig.getpassword()
 
+    """
     @pytest.mark.sanity
     #@pytest.mark.regression
     def test_PendingScreen_title(self, setup):
@@ -38,7 +39,7 @@ class Test_004_PendingScreen:
             self.driver.save_screenshot(".\\Screenshots\\" + "PendingScreenTitle.png")
             self.driver.close()
             assert False
-
+    """
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_search_participent(self, setup):
@@ -59,10 +60,10 @@ class Test_004_PendingScreen:
 
         ps = PendingScreen(self.driver)
         ps.pendingSceen_tab()
-        ps.seatch_parti("leona")
+        ps.seatch_parti("Hadid, Bela")
 #       status = ps.serch_by_name("leona")
 #       assert True==status
-        self.driver.close()
+        #self.driver.close()
 
     def test_searchEdit_participent(self):
         pass

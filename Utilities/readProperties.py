@@ -7,15 +7,15 @@ class ReadConfig:
 
     @staticmethod
     def getApplicationURL():
-        url = config.get('common info', 'baseurl')
+        url = config.get('UAT common info', 'baseurl')
         return url
 
     @staticmethod
     def getemail():
-        email = config.get('common info', 'email')
+        email = config.get('UAT common info', 'email')
         return email
 
     @staticmethod
     def getpassword():
-        password = config.get('common info', 'password')
+        password = config.get('UAT common info', 'password')
         return password
