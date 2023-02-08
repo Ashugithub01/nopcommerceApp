@@ -1,0 +1,149 @@
+2023-02-06 17:30:48,801  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:30:52,878  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:30:55,923  - INFO - ----------Verifying title Page--------
+2023-02-06 17:30:55,923  - INFO - ----------Page Verification Successful--------
+2023-02-06 17:35:25,827  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:35:29,899  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:35:34,360  - INFO - ----------Verifying title Page--------
+2023-02-06 17:35:34,360  - INFO - ----------Page Verification Successful--------
+2023-02-06 17:35:50,380  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:35:54,460  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:38:38,367  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:38:42,423  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:38:45,455  - INFO - ----------Verifying title Page--------
+2023-02-06 17:38:45,455  - INFO - ----------Page Verification Successful--------
+2023-02-06 17:39:00,342  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:39:04,403  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:50:54,089  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:50:58,162  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:51:01,329  - INFO - ----------Verifying title Page--------
+2023-02-06 17:51:01,329  - INFO - ----------Page Verification Successful--------
+2023-02-06 17:51:16,674  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:51:20,751  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:53:17,252  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:53:21,304  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:54:20,382  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:54:24,445  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 17:59:14,224  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 17:59:18,406  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:03:13,383  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:03:17,446  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:07:25,453  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:07:29,551  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:11:20,502  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:11:24,710  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:20:06,621  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:20:20,346  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:24:13,683  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:24:17,761  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:30:35,335  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:30:39,515  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:32:20,817  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:32:24,867  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:34:16,496  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:34:20,659  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:40:30,873  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:40:34,935  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:41:28,246  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:41:32,296  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:43:08,212  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:43:12,285  - INFO - ----------Selecting Bulk Update option--------
+2023-02-06 18:45:14,281  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-06 18:45:18,334  - INFO - ----------Selecting Bulk Update option--------
+2023-02-07 11:00:17,076  - INFO - *************Login Test case 001_A ************
+2023-02-07 11:00:20,651  - INFO - *************Login Test case 001_B ************
+2023-02-07 11:02:02,869  - INFO - *************Login Test case 001_A ************
+2023-02-07 11:02:06,540  - INFO - ------------Verifying Home page title --------
+2023-02-07 11:02:06,558  - INFO - --------Home page title Verified ----------
+2023-02-07 11:02:08,416  - INFO - *************Login Test case 001_B ************
+2023-02-07 11:02:10,711  - INFO - ------------Verifying Login --------
+2023-02-07 11:02:27,210  - INFO - --------Login Successful and Dashboard Appeared ----------
+2023-02-07 11:06:52,089  - INFO - *************Test_003_Addnew_participents ************
+2023-02-07 11:06:54,652  - INFO - --- Launching URL ---
+2023-02-07 11:06:54,653  - INFO - --- Enter Credential ---
+2023-02-07 11:07:00,524  - INFO - --- Login Successful---
+2023-02-07 11:07:00,524  - INFO - --- Choosing Court---
+2023-02-07 11:07:11,517  - INFO - --- Adding New Participent---
+2023-02-07 11:08:11,139  - INFO - --- Participent Added Successful---
+2023-02-07 11:09:47,958  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-07 11:09:52,166  - INFO - ----------Selecting Bulk Update option--------
+2023-02-07 12:10:47,241  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-07 12:10:51,451  - INFO - ----------Selecting Bulk Update option--------
+2023-02-07 12:12:55,495  - INFO - ----------Click on Bulk Option from Nav Bar--------
+2023-02-07 12:12:59,587  - INFO - ----------Selecting Bulk Update option--------
+2023-02-08 10:17:22,513  - INFO - --- Opening Url----
+2023-02-08 10:22:09,163  - INFO - --- Opening Url----
+2023-02-08 10:23:35,594  - INFO - --- Opening Url----
+2023-02-08 10:28:50,466  - INFO - --- Opening Url----
+2023-02-08 12:01:13,723  - INFO - --- Opening Url----
+2023-02-08 12:03:38,277  - INFO - --- Opening Url----
+2023-02-08 12:10:59,765  - INFO - --- Opening Url----
+2023-02-08 12:11:12,400  - INFO - --- Loging Successful----
+2023-02-08 12:11:16,352  - INFO - --- Setting Page title verified----
+2023-02-08 12:16:50,666  - INFO - --- Opening Url----
+2023-02-08 12:17:04,362  - INFO - --- Loging Successful----
+2023-02-08 12:17:11,080  - INFO - --- Setting Page title verified----
+2023-02-08 12:18:45,014  - INFO - --- Opening Url----
+2023-02-08 12:18:56,546  - INFO - --- Loging Successful----
+2023-02-08 12:19:01,090  - INFO - --- Setting Page title verified----
+2023-02-08 12:20:06,550  - INFO - --- Opening Url----
+2023-02-08 12:20:19,086  - INFO - --- Loging Successful----
+2023-02-08 12:20:23,426  - INFO - --- Setting Page title verified----
+2023-02-08 12:21:54,881  - INFO - --- Opening Url----
+2023-02-08 12:22:10,096  - INFO - --- Loging Successful----
+2023-02-08 12:22:17,504  - INFO - --- Setting Page title verified----
+2023-02-08 12:23:14,841  - INFO - --- Opening Url----
+2023-02-08 12:23:32,435  - INFO - --- Loging Successful----
+2023-02-08 12:23:35,616  - INFO - --- Setting Page title verified----
+2023-02-08 12:24:50,007  - INFO - --- Opening Url----
+2023-02-08 12:25:03,649  - INFO - --- Loging Successful----
+2023-02-08 12:25:08,383  - INFO - --- Setting Page title verified----
+2023-02-08 12:27:28,783  - INFO - --- Opening Url----
+2023-02-08 12:27:39,727  - INFO - --- Loging Successful----
+2023-02-08 12:27:42,892  - INFO - --- Setting Page title verified----
+2023-02-08 12:30:48,576  - INFO - --- Opening Url----
+2023-02-08 12:31:01,644  - INFO - --- Loging Successful----
+2023-02-08 12:31:09,054  - INFO - --- Setting Page title verified----
+2023-02-08 12:38:59,779  - INFO - --- Opening Url----
+2023-02-08 12:39:18,833  - INFO - --- Loging Successful----
+2023-02-08 12:39:27,181  - INFO - --- Setting Page title verified----
+2023-02-08 12:46:14,170  - INFO - --- Opening Url----
+2023-02-08 12:46:24,535  - INFO - --- Loging Successful----
+2023-02-08 12:46:27,753  - INFO - --- Setting Page title verified----
+2023-02-08 12:56:22,152  - INFO - --- Opening Url----
+2023-02-08 12:56:36,741  - INFO - --- Loging Successful----
+2023-02-08 12:56:44,078  - INFO - --- Setting Page title verified----
+2023-02-08 12:59:23,895  - INFO - --- Opening Url----
+2023-02-08 12:59:38,066  - INFO - --- Loging Successful----
+2023-02-08 12:59:42,277  - INFO - --- Setting Page title verified----
+2023-02-08 13:03:26,117  - INFO - --- Opening Url----
+2023-02-08 13:03:43,791  - INFO - --- Loging Successful----
+2023-02-08 13:03:55,299  - INFO - --- Setting Page title verified----
+2023-02-08 13:09:45,528  - INFO - --- Opening Url----
+2023-02-08 13:09:58,887  - INFO - --- Loging Successful----
+2023-02-08 13:10:05,730  - INFO - --- Setting Page title verified----
+2023-02-08 13:12:04,849  - INFO - --- Opening Url----
+2023-02-08 13:12:28,032  - INFO - --- Loging Successful----
+2023-02-08 13:12:35,622  - INFO - --- Setting Page title verified----
+2023-02-08 13:15:01,336  - INFO - --- Opening Url----
+2023-02-08 13:15:20,059  - INFO - --- Loging Successful----
+2023-02-08 13:15:29,345  - INFO - --- Setting Page title verified----
+2023-02-08 18:08:53,571  - INFO - --- Opening Url----
+2023-02-08 18:09:07,668  - INFO - --- Loging Successful----
+2023-02-08 18:09:11,621  - INFO - --- Setting Page title verified----
+2023-02-08 18:11:44,002  - INFO - --- Opening Url----
+2023-02-08 18:11:57,285  - INFO - --- Loging Successful----
+2023-02-08 18:12:02,497  - INFO - --- Setting Page title verified----
+2023-02-08 18:14:11,645  - INFO - --- Opening Url----
+2023-02-08 18:14:29,413  - INFO - --- Loging Successful----
+2023-02-08 18:14:39,152  - INFO - --- Setting Page title verified----
+2023-02-08 18:20:28,805  - INFO - --- Opening Url----
+2023-02-08 18:21:48,373  - INFO - --- Opening Url----
+2023-02-08 18:22:10,215  - INFO - --- Loging Successful----
+2023-02-08 18:22:22,000  - INFO - --- Setting Page title verified----
+2023-02-08 18:32:14,121  - INFO - --- Opening Url----
+2023-02-08 18:32:28,403  - INFO - --- Loging Successful----
+2023-02-08 18:32:35,490  - INFO - --- Setting Page title verified----
+2023-02-08 18:35:39,532  - INFO - --- Opening Url----
+2023-02-08 18:35:55,017  - INFO - --- Loging Successful----
+2023-02-08 18:36:00,136  - INFO - --- Setting Page title verified----
