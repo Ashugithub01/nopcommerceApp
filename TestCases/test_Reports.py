@@ -50,7 +50,7 @@ class Test_008_SettingReports:
         time.sleep(3)
         self.setRepo.Docket_Type("Adult Court")
         time.sleep(3)
-        self.setRepo.Type_of_File("PDF")
+        self.setRepo.Type_of_File("Excel")
         time.sleep(3)
         self.setRepo.Select_Judge("Any")
         time.sleep(3)
@@ -62,8 +62,10 @@ class Test_008_SettingReports:
         time.sleep(3)
         self.setRepo.Type_order("Ascending by Name")
         self.setRepo.Submit_Report()
+        time.sleep(5)
+
         self.setRepo.Generate_Staff_report()
-        self.driver.close()
+        #self.driver.close()
 
 
 

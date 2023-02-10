@@ -147,3 +147,94 @@
 2023-02-08 18:35:39,532  - INFO - --- Opening Url----
 2023-02-08 18:35:55,017  - INFO - --- Loging Successful----
 2023-02-08 18:36:00,136  - INFO - --- Setting Page title verified----
+2023-02-09 11:22:54,153  - INFO - *************Test_003_Addnew_participents ************
+2023-02-09 11:22:59,820  - INFO - --- Launching URL ---
+2023-02-09 11:22:59,820  - INFO - --- Enter Credential ---
+2023-02-09 11:23:03,553  - INFO - --- Login Successful---
+2023-02-09 11:23:03,553  - INFO - --- Choosing Court---
+2023-02-09 11:23:17,110  - INFO - --- Adding New Participent---
+2023-02-09 11:24:26,570  - INFO - --- Participent Added Successful---
+2023-02-09 11:32:45,155  - INFO - --- Opening Url----
+2023-02-09 11:33:18,096  - INFO - --- Opening Url----
+2023-02-09 11:33:33,083  - INFO - --- Loging Successful----
+2023-02-09 11:33:48,264  - INFO - --- Setting Page title verified----
+2023-02-09 11:36:31,909  - INFO - --- Opening Url----
+2023-02-09 11:36:44,529  - INFO - --- Loging Successful----
+2023-02-09 11:36:48,530  - INFO - --- Setting Page title verified----
+2023-02-09 11:43:06,951  - INFO - --- Opening Url----
+2023-02-09 11:43:18,686  - INFO - --- Loging Successful----
+2023-02-09 11:43:21,693  - INFO - --- Setting Page title verified----
+2023-02-09 11:45:09,285  - INFO - --- Opening Url----
+2023-02-09 11:45:24,000  - INFO - --- Loging Successful----
+2023-02-09 11:45:30,552  - INFO - --- Setting Page title verified----
+2023-02-09 11:56:43,088  - INFO - --- Opening Url----
+2023-02-09 11:56:55,457  - INFO - --- Loging Successful----
+2023-02-09 11:57:00,362  - INFO - --- Setting Page title verified----
+2023-02-09 12:00:06,619  - INFO - --- Opening Url----
+2023-02-09 12:00:21,016  - INFO - --- Loging Successful----
+2023-02-09 12:00:27,051  - INFO - --- Setting Page title verified----
+2023-02-09 12:03:26,101  - INFO - --- Opening Url----
+2023-02-09 12:03:41,333  - INFO - --- Loging Successful----
+2023-02-09 12:03:46,254  - INFO - --- Setting Page title verified----
+2023-02-09 12:08:33,244  - INFO - --- Opening Url----
+2023-02-09 12:08:44,356  - INFO - --- Loging Successful----
+2023-02-09 12:08:47,198  - INFO - --- Setting Page title verified----
+2023-02-09 12:10:38,641  - INFO - --- Opening Url----
+2023-02-09 12:10:54,683  - INFO - --- Loging Successful----
+2023-02-09 12:10:58,643  - INFO - --- Setting Page title verified----
+2023-02-09 12:19:11,317  - INFO - --- Opening Url----
+2023-02-09 12:19:25,378  - INFO - --- Loging Successful----
+2023-02-09 12:19:30,309  - INFO - --- Setting Page title verified----
+2023-02-09 12:21:29,659  - INFO - --- Opening Url----
+2023-02-09 12:21:46,465  - INFO - --- Loging Successful----
+2023-02-09 12:21:52,399  - INFO - --- Setting Page title verified----
+2023-02-09 12:25:05,219  - INFO - --- Opening Url----
+2023-02-09 12:25:20,338  - INFO - --- Loging Successful----
+2023-02-09 12:25:24,523  - INFO - --- Setting Page title verified----
+2023-02-09 12:27:04,798  - INFO - --- Opening Url----
+2023-02-09 12:27:17,261  - INFO - --- Loging Successful----
+2023-02-09 12:27:21,275  - INFO - --- Setting Page title verified----
+2023-02-09 12:28:56,643  - INFO - --- Opening Url----
+2023-02-09 12:29:08,239  - INFO - --- Loging Successful----
+2023-02-09 12:29:13,202  - INFO - --- Setting Page title verified----
+2023-02-09 12:31:39,269  - INFO - --- Opening Url----
+2023-02-09 12:31:50,915  - INFO - --- Loging Successful----
+2023-02-09 12:31:54,988  - INFO - --- Setting Page title verified----
+2023-02-09 12:36:02,763  - INFO - --- Opening Url----
+2023-02-09 12:36:19,032  - INFO - --- Loging Successful----
+2023-02-09 12:36:22,937  - INFO - --- Setting Page title verified----
+2023-02-10 10:14:00,728  - INFO - *************Test_003_Addnew_participents ************
+2023-02-10 10:14:03,669  - INFO - --- Launching URL ---
+2023-02-10 10:14:03,669  - INFO - --- Enter Credential ---
+2023-02-10 10:14:08,337  - INFO - --- Login Successful---
+2023-02-10 10:14:08,338  - INFO - --- Choosing Court---
+2023-02-10 10:14:21,701  - INFO - --- Adding New Participent---
+2023-02-10 10:14:46,602  - INFO - *************Test_003_Addnew_participents ************
+2023-02-10 10:14:49,846  - INFO - --- Launching URL ---
+2023-02-10 10:14:49,846  - INFO - --- Enter Credential ---
+2023-02-10 10:14:53,986  - INFO - --- Login Successful---
+2023-02-10 10:14:53,986  - INFO - --- Choosing Court---
+2023-02-10 10:15:03,886  - INFO - --- Adding New Participent---
+2023-02-10 10:15:22,924  - INFO - --- Participent Adding Failed ---
+2023-02-10 10:16:34,500  - INFO - --- Participent Added Successful---
+2023-02-10 10:16:55,647  - INFO - *************Test_003_Addnew_participents ************
+2023-02-10 10:17:00,714  - INFO - --- Launching URL ---
+2023-02-10 10:17:00,714  - INFO - --- Enter Credential ---
+2023-02-10 10:17:05,950  - INFO - --- Login Successful---
+2023-02-10 10:17:05,950  - INFO - --- Choosing Court---
+2023-02-10 10:17:19,360  - INFO - --- Adding New Participent---
+2023-02-10 10:18:22,003  - INFO - --- Participent Added Successful---
+2023-02-10 10:18:34,385  - INFO - *************Test_003_Addnew_participents ************
+2023-02-10 10:18:39,747  - INFO - --- Launching URL ---
+2023-02-10 10:18:39,747  - INFO - --- Enter Credential ---
+2023-02-10 10:18:43,091  - INFO - --- Login Successful---
+2023-02-10 10:18:43,091  - INFO - --- Choosing Court---
+2023-02-10 10:18:52,719  - INFO - --- Adding New Participent---
+2023-02-10 10:19:53,106  - INFO - --- Participent Adding Failed ---
+2023-02-10 10:20:14,907  - INFO - *************Test_003_Addnew_participents ************
+2023-02-10 10:20:18,731  - INFO - --- Launching URL ---
+2023-02-10 10:20:18,732  - INFO - --- Enter Credential ---
+2023-02-10 10:20:22,151  - INFO - --- Login Successful---
+2023-02-10 10:20:22,151  - INFO - --- Choosing Court---
+2023-02-10 10:20:31,428  - INFO - --- Adding New Participent---
+2023-02-10 10:21:32,200  - INFO - --- Participent Adding Failed ---

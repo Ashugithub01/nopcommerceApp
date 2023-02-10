@@ -36,12 +36,16 @@ class Setting_reports:
         self.driver.find_element_by_xpath(self.drp_DocketType_xpath).send_keys(Dockettype)
 
     def Type_of_File(self, filetype):
-        if filetype == "PDF" and self.drp_ReportType_xpath == "Staff Report":
-            self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
-        elif filetype == "PDF" and self.drp_ReportType_xpath != "Staff Report":
-            self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
-        elif filetype == "Excel" and self.drp_ReportType_xpath != "Staff Report":
-            self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
+        try:
+                if filetype == "PDF" and self.drp_ReportType_xpath == "Staff Report":
+                    return self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
+
+                elif filetype == "PDF" and self.drp_ReportType_xpath != "Staff Report":
+                    return self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
+                elif filetype == "Excel" and self.drp_ReportType_xpath != "Staff Report":
+                    return self.driver.find_element_by_xpath(self.drp_FileType_xpath).send_keys(filetype)
+        except NameError:
+            return "NameError occurred. file type isn't defined."
 
     def Select_Judge(self, judgeName):
         self.driver.find_element_by_xpath(self.drp_Judge_xpath).send_keys(judgeName)
@@ -58,7 +62,18 @@ class Setting_reports:
         self.driver.find_element_by_id(self.btn_submit_id).click()
 
     def Generate_Staff_report(self):
-        self.driver.find_element_by_xpath(self.link_printreport_xpath).click()
+            try:
+                printIcon = self.driver.find_element_by_xpath(self.link_printreport_xpath).is_enabled()
+                print("Print Icon Is visible", printIcon)
+                if printIcon == "True":
+                    return self.driver.find_element_by_xpath(self.link_printreport_xpath).click()
+                elif printIcon == "False":
+                    return "error1 "
+            except:
+                pass
+
+
+
 
 
 #  =========================================Report History================================================
