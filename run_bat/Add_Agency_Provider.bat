@@ -1,0 +1,1 @@
+pytest -v -s TestCases/test_Add_Agency_Provider.py --html=Reports\AddNewProvider.html --browser chrome
