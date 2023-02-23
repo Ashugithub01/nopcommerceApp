@@ -39,7 +39,7 @@ class Test_009_AddAgencyProvider:
 
         time.sleep(3)
 
-        self.rows = XLUtils.getRowCount(self.path,'AgencyProvider')
+        self.rows = XLUtils.getRowCount(self.path, 'AgencyProvider')
         lst_status = []
         for r in range(2, self.rows+1):
             self.add_provider.Click_Add_Agency()

@@ -1,0 +1,1 @@
+pytest -v -s TestCases/DimsSettings/test_manage_user.py --html=Reports\ManageUser.html --browser chrome
